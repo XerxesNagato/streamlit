@@ -3,7 +3,10 @@ import requests
 import webbrowser
 
 
-
+st.set_page_config(
+        page_title="DaSquad",
+        page_icon="logo.png",
+        layout="wide",
 dis_link = 'https://discord.gg/v3FDUQ5t'
 
 st.title('The Squad')
