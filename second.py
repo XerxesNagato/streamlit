@@ -13,7 +13,7 @@ st.header('The Squad')
 #st.image('logo.png')
 dis_btn = st.sidebar.button('Discord')
 if dis_btn:
-    webbrowser.open_new_tab(dis_link)
+    webbrowser.open_new_tab(dis_link, unsafe_allow_html=True)
 
 st.sidebar.header('Members:')
 st.sidebar.write('Nagat__0#')
