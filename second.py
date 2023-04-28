@@ -15,7 +15,7 @@ st.header('The Squad')
 dis_btn = st.sidebar.button('Discord')
 if dis_btn:
     #webbrowser.open_new_tab(dis_link)
-    subprocess.run(["open", "-n", "-a", "Google Chrome", "--args", "--new-tab", url])
+    subprocess.run(["open", "-n", "-a", "Google Chrome", "--args", "--new-tab", dis_link])
 
 st.sidebar.header('Members:')
 st.sidebar.write('Nagat__0#')
