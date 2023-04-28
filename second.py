@@ -9,7 +9,7 @@ st.set_page_config(
         layout="wide",
 dis_link = 'https://discord.gg/v3FDUQ5t'
 
-st.title('The Squad')
+st.header('The Squad')
 st.image('logo.png')
 dis_btn = st.button('Discord')
 if dis_btn:
