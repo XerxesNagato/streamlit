@@ -10,7 +10,7 @@ st.set_page_config(
 dis_link = 'https://discord.gg/v3FDUQ5t'
 
 st.header('The Squad')
-st.image('logo.png')
+#st.image('logo.png')
 dis_btn = st.button('Discord')
 if dis_btn:
     webbrowser.open_new_tab(dis_link)
