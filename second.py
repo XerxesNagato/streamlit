@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import webbrowser
+import subprocess
 
 
 st.set_page_config(
@@ -13,7 +14,8 @@ st.header('The Squad')
 #st.image('logo.png')
 dis_btn = st.sidebar.button('Discord')
 if dis_btn:
-    webbrowser.open_new_tab(dis_link, unsafe_allow_html=True)
+    #webbrowser.open_new_tab(dis_link)
+    subprocess.run(["open", "-n", "-a", "Google Chrome", "--args", "--new-tab", url])
 
 st.sidebar.header('Members:')
 st.sidebar.write('Nagat__0#')
