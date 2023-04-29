@@ -12,10 +12,10 @@ dis_link = 'https://discord.gg/v3FDUQ5t'
 
 st.header('The Squad')
 #st.image('logo.png')
-dis_btn = st.sidebar.button('[Discord]('https://discord.gg/v3FDUQ5t'))
+dis_btn = st.sidebar.button('Discord')
 if dis_btn:
-    #webbrowser.open_new_tab(dis_link)
-    "check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
+    dis_link
+    
 
 st.sidebar.header('Members:')
 st.sidebar.write('Nagat__0#')
