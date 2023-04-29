@@ -13,12 +13,13 @@ st.set_page_config(
         layout="wide")
 dis_link = 'https://discord.gg/v3FDUQ5t'
 
+
+
 st.header('The Squad')
 #st.image('logo.png')
 dis_btn = st.sidebar.button('Discord')
 if dis_btn:
-    link_button('Discord', 'https://discord.gg/v3FDUQ5t')
-    
+        link_button(','https://discord.gg/v3FDUQ5t')
 
 st.sidebar.header('Members:')
 st.sidebar.write('Nagat__0#')
