@@ -2,6 +2,9 @@ import streamlit as st
 import requests
 import webbrowser
 import subprocess
+from link_button import link_button
+
+link_button('Click Me!', 'https://docs.streamlit.io/en/stable/')
 
 
 st.set_page_config(
@@ -14,7 +17,7 @@ st.header('The Squad')
 #st.image('logo.png')
 dis_btn = st.sidebar.button('Discord')
 if dis_btn:
-    st.markdown(dis_link,unsafe_allow_html=True)
+    link_button('Discord', 'https://discord.gg/v3FDUQ5t')
     
 
 st.sidebar.header('Members:')
