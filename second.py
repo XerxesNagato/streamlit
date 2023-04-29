@@ -18,7 +18,7 @@ st.header('The Squad')
 dis_btn = st.sidebar.button('Discord')
 if dis_btn:
         st.markdown(f'''
-<a href={dis_link}><button style="background-color:Blue;">Join Discord Server</button></a>
+<a href={dis_link}>Join Discord Server</a>
 ''',
 unsafe_allow_html=True)
 
