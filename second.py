@@ -14,7 +14,7 @@ st.header('The Squad')
 #st.image('logo.png')
 dis_btn = st.sidebar.button('Discord')
 if dis_btn:
-    dis_link
+    st.markdown(dis_link,unsafe_allow_html=True)
     
 
 st.sidebar.header('Members:')
